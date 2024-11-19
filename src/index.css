@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.login_img_section {
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://i.imgur.com/Av4flZt.png") center center;
+  background-size: cover;
+}
