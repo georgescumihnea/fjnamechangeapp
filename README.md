@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+# Frontend For the freejack name change app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was made for educational purposes only. While playing an online game that was relaunched, but still in beta called Freejack I decided to see how their networking logic was functioning. While sniffing packages I discovered that they are using a 3rd party API for their online logic and using their documentation I found out that they left some things unprotected and you could exploit it with any tool similar with postman to send requests to that api to change your username.
 
-Currently, two official plugins are available:
+To be able to do that I also replicated their login system so you could pretty much login and request any data that their db might hold.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I announced their team about the exploits.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Using the same api you can exploit their verification system which was poorly coded and see all the "patreon keys" to access the game while in beta. (which pretty much means bypassing their payment system right now to play their game)
