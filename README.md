@@ -27,13 +27,13 @@ Additionally, I discovered a way to utilize Unity's RTF (Rich Text Formatting) i
 
 ## Screenshots
 
-### 1. Login Interface  
+### 1. Name Changer UI  
 ![Login Interface](https://i.postimg.cc/R09HNCsD/Screenshot-1.png)  
 
 ### 2. Success Alert
 ![Name Changer](https://i.postimg.cc/dVGCsZBC/Screenshot-3.png)  
 
-### 3. Name Changer UI
+### 3. Login Interface
 ![Success Alert](https://i.postimg.cc/rpJtW67F/Screenshot-2.png)  
 
 ---
